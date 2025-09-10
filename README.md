@@ -1,3 +1,3 @@
 # Rewrite recipient address in postfix queue
 
-If some message in postfix queue with error in recipient address, it replace address
+If some messages in postfix queue has error in recipient address, it replace address.
