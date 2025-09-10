@@ -14,7 +14,7 @@ if [ ${#adr_from} -eq 0 ]; then
     exit 1
 fi
 
-adr_to=$(postqueue -p | grep $1 -A 3| awk 'NR==3 {print $1}' | sed 's/@enran.com.ua/@enran.ua/')
+adr_to=$(postqueue -p | grep $1 -A 3| awk 'NR==3 {print $1}' | sed 's/@xxxx.com.ua/@xxxx.ua/')
 
 echo "ReSend $1 From $adr_from To $adr_to"
 
